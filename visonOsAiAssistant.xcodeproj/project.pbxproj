@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FAC3C9162B7879AF00920016 /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3C9152B7879AF00920016 /* EventList.swift */; };
+		FAC3C9182B787A1000920016 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3C9172B787A1000920016 /* Event.swift */; };
 		FAF968522B76BC130087BE78 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = FAF968512B76BC130087BE78 /* RealityKitContent */; };
 		FAF968542B76BC130087BE78 /* visonOsAiAssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF968532B76BC130087BE78 /* visonOsAiAssistantApp.swift */; };
 		FAF968562B76BC130087BE78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF968552B76BC130087BE78 /* ContentView.swift */; };
@@ -28,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FAC3C9142B78764C00920016 /* robotics-club-sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "robotics-club-sm.png"; sourceTree = "<group>"; };
+		FAC3C9152B7879AF00920016 /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
+		FAC3C9172B787A1000920016 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		FAF9684C2B76BC130087BE78 /* visonOsAiAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visonOsAiAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF968502B76BC130087BE78 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		FAF968532B76BC130087BE78 /* visonOsAiAssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visonOsAiAssistantApp.swift; sourceTree = "<group>"; };
@@ -60,6 +65,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FAC3C9112B78760D00920016 /* imageassets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = imageassets;
+			sourceTree = "<group>";
+		};
 		FAF968432B76BC120087BE78 = {
 			isa = PBXGroup;
 			children = (
@@ -82,13 +94,17 @@
 		FAF9684E2B76BC130087BE78 /* visonOsAiAssistant */ = {
 			isa = PBXGroup;
 			children = (
+				FAC3C9112B78760D00920016 /* imageassets */,
 				FAF968532B76BC130087BE78 /* visonOsAiAssistantApp.swift */,
 				FAF968552B76BC130087BE78 /* ContentView.swift */,
 				FAF968572B76BC130087BE78 /* ImmersiveView.swift */,
 				FAF968592B76BC130087BE78 /* ImageBasedLighting.skybox */,
 				FAF9685B2B76BC140087BE78 /* Assets.xcassets */,
+				FAC3C9142B78764C00920016 /* robotics-club-sm.png */,
 				FAF968602B76BC140087BE78 /* Info.plist */,
 				FAF9685D2B76BC140087BE78 /* Preview Content */,
+				FAC3C9152B7879AF00920016 /* EventList.swift */,
+				FAC3C9172B787A1000920016 /* Event.swift */,
 			);
 			path = visonOsAiAssistant;
 			sourceTree = "<group>";
@@ -221,9 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC3C9162B7879AF00920016 /* EventList.swift in Sources */,
 				FAF968562B76BC130087BE78 /* ContentView.swift in Sources */,
 				FAF968542B76BC130087BE78 /* visonOsAiAssistantApp.swift in Sources */,
 				FAF968582B76BC130087BE78 /* ImmersiveView.swift in Sources */,
+				FAC3C9182B787A1000920016 /* Event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
