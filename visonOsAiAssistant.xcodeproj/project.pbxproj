@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FAC3C9162B7879AF00920016 /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3C9152B7879AF00920016 /* EventList.swift */; };
-		FAC3C9182B787A1000920016 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3C9172B787A1000920016 /* Event.swift */; };
+		FABF83332B787FA300DBE5EC /* GroupWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABF83322B787FA300DBE5EC /* GroupWatchView.swift */; };
+		FABF83362B7881E800DBE5EC /* MoviePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABF83352B7881E800DBE5EC /* MoviePlayerView.swift */; };
+		FABF83382B78849800DBE5EC /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABF83372B78849800DBE5EC /* MovieListView.swift */; };
+		FABF833A2B78852B00DBE5EC /* MovieInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABF83392B78852B00DBE5EC /* MovieInfoView.swift */; };
 		FAF968522B76BC130087BE78 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = FAF968512B76BC130087BE78 /* RealityKitContent */; };
 		FAF968542B76BC130087BE78 /* visonOsAiAssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF968532B76BC130087BE78 /* visonOsAiAssistantApp.swift */; };
 		FAF968562B76BC130087BE78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF968552B76BC130087BE78 /* ContentView.swift */; };
@@ -30,9 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FAC3C9142B78764C00920016 /* robotics-club-sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "robotics-club-sm.png"; sourceTree = "<group>"; };
-		FAC3C9152B7879AF00920016 /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
-		FAC3C9172B787A1000920016 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		FABF83322B787FA300DBE5EC /* GroupWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupWatchView.swift; sourceTree = "<group>"; };
+		FABF83352B7881E800DBE5EC /* MoviePlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePlayerView.swift; sourceTree = "<group>"; };
+		FABF83372B78849800DBE5EC /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
+		FABF83392B78852B00DBE5EC /* MovieInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoView.swift; sourceTree = "<group>"; };
 		FAF9684C2B76BC130087BE78 /* visonOsAiAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visonOsAiAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF968502B76BC130087BE78 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		FAF968532B76BC130087BE78 /* visonOsAiAssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visonOsAiAssistantApp.swift; sourceTree = "<group>"; };
@@ -65,11 +68,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FAC3C9112B78760D00920016 /* imageassets */ = {
+		FABF83342B7881A500DBE5EC /* GroupWatch */ = {
 			isa = PBXGroup;
 			children = (
+				FABF83322B787FA300DBE5EC /* GroupWatchView.swift */,
+				FABF83352B7881E800DBE5EC /* MoviePlayerView.swift */,
+				FABF83372B78849800DBE5EC /* MovieListView.swift */,
+				FABF83392B78852B00DBE5EC /* MovieInfoView.swift */,
 			);
-			path = imageassets;
+			path = GroupWatch;
 			sourceTree = "<group>";
 		};
 		FAF968432B76BC120087BE78 = {
@@ -94,7 +101,7 @@
 		FAF9684E2B76BC130087BE78 /* visonOsAiAssistant */ = {
 			isa = PBXGroup;
 			children = (
-				FAC3C9112B78760D00920016 /* imageassets */,
+				FABF83342B7881A500DBE5EC /* GroupWatch */,
 				FAF968532B76BC130087BE78 /* visonOsAiAssistantApp.swift */,
 				FAF968552B76BC130087BE78 /* ContentView.swift */,
 				FAF968572B76BC130087BE78 /* ImmersiveView.swift */,
@@ -237,11 +244,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAC3C9162B7879AF00920016 /* EventList.swift in Sources */,
+				FABF83362B7881E800DBE5EC /* MoviePlayerView.swift in Sources */,
 				FAF968562B76BC130087BE78 /* ContentView.swift in Sources */,
 				FAF968542B76BC130087BE78 /* visonOsAiAssistantApp.swift in Sources */,
+				FABF83332B787FA300DBE5EC /* GroupWatchView.swift in Sources */,
 				FAF968582B76BC130087BE78 /* ImmersiveView.swift in Sources */,
-				FAC3C9182B787A1000920016 /* Event.swift in Sources */,
+				FABF833A2B78852B00DBE5EC /* MovieInfoView.swift in Sources */,
+				FABF83382B78849800DBE5EC /* MovieListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
