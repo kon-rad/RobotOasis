@@ -20,7 +20,7 @@ struct GroupWatchView: View {
 import SwiftUI
 import Combine
 
-struct MovieDetailView: View {
+struct GroupWatchView: View {
     @StateObject private var coordinationManager = CoordinationManager.shared
     @State private var isShareSheetPresented = false
     @State private var isSharePlayPresented = false
